@@ -1,74 +1,90 @@
 <template>
-  <div class="evenements">
-    <h1>
-      Psaume 55:17 <br />
-      « Le soir, le matin et à midi, je soupire et je gémis, et il entendra ma
-      voix.»
-    </h1>
+  <div>
+    <div class="evenements">
+      <h1>
+        Psaume 55:17 <br />
+        « Le soir, le matin et à midi, je soupire et je gémis, et il entendra ma
+        voix.»
+      </h1>
+    </div>
+    <section id="lessermons">
+      <div id="cart-sermont">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="details">
+          <p>Orateur</p>
+          <p>Theme</p>
+          <p>Date</p>
+        </div>
+      </div>
+      <div id="cart-sermont">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/K3dtImKtyD8?si=YJEObrk64hkxiEsu"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="details">
+          <p>Orateur</p>
+          <p>Theme</p>
+          <p>Date</p>
+        </div>
+      </div>
+      <div id="cart-sermont">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2OBD87YoLkc?si=qSV5b2HOFviFuE3E"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="details">
+          <p>Orateur</p>
+          <p>Theme</p>
+          <p>Date</p>
+        </div>
+      </div>
+      <div id="cart-sermont">
+        <div class="image">
+          <img
+            src="@/assets/images/img2.png"
+            alt="Description de l'image"
+            style="max-width: 510px; border-radius: 8px; height: auto"
+          />
+        </div>
+        <div id="details">
+          <p>Description de l'image</p>
+          <p>Autre information</p>
+          <p>Date</p>
+        </div>
+      </div>
+    </section>
+    <section id="plus">
+      <router-link to="/Evernements" id="lien">1</router-link>
+      <router-link to="/Evernements" id="lien">2</router-link>
+      <router-link to="/Evernements" id="lien">→</router-link>
+    </section>
   </div>
-  <section id="lessermons">
-    <div id="cart-sermont">
-      <div class="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div id="details">
-        <p>Orateur</p>
-        <p>Theme</p>
-        <p>Date</p>
-      </div>
-    </div>
-    <div id="cart-sermont">
-      <div class="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/K3dtImKtyD8?si=YJEObrk64hkxiEsu"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div id="details">
-        <p>Orateur</p>
-        <p>Theme</p>
-        <p>Date</p>
-      </div>
-    </div>
-    <div id="cart-sermont">
-      <div class="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/2OBD87YoLkc?si=qSV5b2HOFviFuE3E"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div id="details">
-        <p>Orateur</p>
-        <p>Theme</p>
-        <p>Date</p>
-      </div>
-    </div>
-  </section>
-  <section id="plus">
-    <router-link to="/Evernements" id="lien">1</router-link>
-    <router-link to="/Evernements" id="lien">2</router-link>
-    <router-link to="/Evernements" id="lien">→</router-link>
-  </section>
 </template>
 
 <script>
@@ -165,5 +181,11 @@ h1 {
   padding: 0.5rem 0;
   font-weight: bold;
   border-bottom: 1px solid #eee;
+}
+.image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
