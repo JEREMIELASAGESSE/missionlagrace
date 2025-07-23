@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Pagemenu />
+  <router-view />
+  <PiedPage />
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Pagemenu from "./components/menu.vue";
+import PiedPage from "./components/pied.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Pagemenu,
+    PiedPage,
+  },
+  props: {},
+  data() {
+    return {};
+  },
+  methods: {
+    // Vous pouvez ajouter des méthodes ici si nécessaire
+  },
+  mounted() {
+    // Code à exécuter lorsque le composant est monté
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
