@@ -1,4 +1,12 @@
 <template>
+  <section>
+    <div class="acceiul">
+      <strong
+        >Là où la main de l'homme ou la médecine est limitée c'est là que la
+        main de Dieu commence.
+      </strong>
+    </div>
+  </section>
   <section class="apropos">
     <h2>À propos de nous</h2>
     <p>
@@ -12,9 +20,33 @@
       formation spirituelle et à l'aide aux personnes dans le besoin.
     </p>
     <p>
+      Notre Mission Est De Proclamer L’évangile De Jésus-Christ, D’annoncer La
+      Bonne Nouvelle Du Royaume De Dieu Et De Faire Des Disciples Dans Le Monde
+      Entier.
+    </p>
+    <p>
+      Notre vision est de voir des vies transformées par la puissance de Dieu,
+      des cœurs guéris et des communautés restaurées. Nous croyons que chaque
+      individu a une valeur inestimable aux yeux de Dieu et mérite d'entendre la
+      bonne nouvelle de Jésus-Christ.
+    </p>
+    <p>
       Notre église est un lieu de culte, de prière et de partage. Nous croyons
       en la puissance de la prière et en l'importance de la communauté dans la
       vie spirituelle.
+    </p>
+    <p>
+      Nous organisons régulièrement des événements, des cultes et des activités
+      pour tous les âges. Notre objectif est de créer un environnement où chacun
+      peut grandir spirituellement et se sentir soutenu.
+    </p>
+    <p>
+      Rejoignez-nous pour découvrir la richesse de notre foi, participer à nos
+      activités et faire partie d'une communauté dynamique et bienveillante.
+    </p>
+    <p>
+      Pour plus d'informations sur nos activités, nos cultes et nos événements,
+      n'hésitez pas à nous contacter directement.
     </p>
   </section>
   <section class="annexes-camps">
@@ -40,23 +72,24 @@
       de formation spirituelle.
     </p>
     <ul>
-      <li>Annexe Béthanie</li>
-      <li>Annexe El-Shaddaï</li>
-      <li>Annexe Siloé</li>
-      <li>Annexe Jéricho</li>
+      <li>Annexe Daloa</li>
+      <li>Annexe Zakoua</li>
+      <li>Annexe Gbalagoua</li>
+      <li>Annexe Yamoussoukro</li>
     </ul>
 
     <h3>Nos Camps de Prières</h3>
     <p>
-      Nous organisons régulièrement des camps de prières pour permettre à chacun
-      de vivre des moments forts dans la présence de Dieu. Ces camps sont
-      ouverts à tous et favorisent la croissance spirituelle, la guérison et la
-      restauration.
+      Nous avons des camps de prières pour permettre à chacun de vivre des
+      moments forts dans la présence de Dieu et recevoir les malades. Ces camps
+      sont ouverts à tous et favorisent la croissance spirituelle, la guérison
+      et la restauration.
     </p>
+
     <ul>
-      <li>Camp de prière Mont Carmel</li>
-      <li>Camp de prière Béthel</li>
-      <li>Camp de prière Gethsémané</li>
+      <li>Camp de prière Zakoua</li>
+      <li>Camp de prière Gbalagoua</li>
+      <li>Camp de prière Yamoussoukro</li>
     </ul>
   </section>
   <section id="plus">
@@ -84,38 +117,74 @@ export default {
 </script>
 
 <style scoped>
-.apropos {
+body {
+  margin: 0;
+  padding: 0;
+}
+.acceiul {
+  padding: 5rem;
+  text-align: center;
   margin-top: 5rem;
+  background-image: url("@/assets/images/img1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.acceiul strong {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 50%;
+}
+.apropos {
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 2rem;
+  padding-top: 0.2rem;
   background: #f9f9f9;
   border-radius: 8px;
 }
 .apropos h2 {
   color: #2c3e50;
   margin-bottom: 1rem;
+  font-size: 30px;
+  font-weight: bold;
 }
 .apropos p {
-  line-height: 1.6;
-  color: #34495e;
+  line-height: 1.2;
+  color: #16191c;
+  font-size: 18px;
 }
 .annexes-camps {
   margin-top: 3rem;
 }
+.annexes-camps p {
+  line-height: 1.5;
+  color: #16191c;
+  font-size: 18px;
+}
+.annexes-camps p strong {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  color: #2c3e50;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
 .annexes-camps h3 {
-  color: #2980b9;
+  color: #2c3e50;
   margin-top: 1.5rem;
+  font-size: 25px;
+  font-weight: bold;
 }
 .annexes-camps ul {
-  list-style-type: disc;
   padding-left: 1.5rem;
 }
 .annexes-camps li {
   margin-bottom: 0.5rem;
-  color: #34495e;
+  color: #812727;
   font-size: 20px;
   list-style-type: square;
+  font-weight: bold;
 }
 #plus {
   text-align: center;

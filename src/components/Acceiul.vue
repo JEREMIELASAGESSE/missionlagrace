@@ -16,6 +16,12 @@
       Camps Prières Basées Dans Le Domaine De La Délivrance Et La Restauration
       Des Ames Pour Nos Seigneur Jésus Christ.
     </P>
+    <p>
+      Nous sommes ravis de vous accueillir sur notre site. Notre église est un
+      lieu de foi, d'amour et de communauté. Nous croyons en la puissance de
+      l'Évangile et en la transformation que Dieu peut apporter dans la vie de
+      chacun.
+    </p>
   </section>
   <div class="acceiul-content">
     <p>
@@ -40,21 +46,23 @@
   </p>
   <section class="redirection">
     <div id="navigation">
-      <p>
+      <p class="lien">
         Vous pouvez voir les sermons Ici
-        <router-link to="/Sermonts" id="lien"
+        <router-link to="/Sermonts" class="lien"
           ><span>Sermonts</span></router-link
         >
       </p>
-      <p>
+      <p class="lien">
         Vous pouvez voir les Evernements Ici
-        <router-link to="/Sermonts" id="lien"
+        <router-link to="/Sermonts" class="lien"
           ><span>Evernements</span></router-link
         >
       </p>
-      <p>
+      <p class="lien">
         Vous pouvez nous laisser vos sujets de prieres Ici
-        <router-link to="/Contact" id="lien"><span>Contact</span></router-link>
+        <router-link to="/Contact" class="lien"
+          ><span>Contact</span></router-link
+        >
       </p>
     </div>
   </section>
@@ -100,7 +108,7 @@ h1 {
   color: #2c3e50; /* Couleur du titre */
 }
 .acceiul-description p {
-  font-size: 2rem; /* Taille de police des paragraphes */
+  font-size: 1.7rem; /* Taille de police des paragraphes */
   line-height: 1.3; /* Hauteur de ligne pour une meilleure lisibilité */
   margin: 0.5rem 0; /* Marge autour des paragraphes */
   text-align: center;
@@ -124,7 +132,7 @@ h1 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Ombre portée */
   text-align: center;
 }
-#lien {
+.lien {
   text-decoration: none;
   font-size: 0.9rem;
   font-style: italic;
@@ -155,5 +163,22 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre portée */
   text-align: center;
   font-size: 2.5rem;
+}
+.lien {
+  animation: info 2s infinite;
+  color: #b34c4c;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes info {
+  0% {
+    color: #b34c4c;
+  }
+  50% {
+    color: #52514f;
+  }
+  100% {
+    color: #b34c4c;
+  }
 }
 </style>

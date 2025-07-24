@@ -13,43 +13,6 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div id="details">
-          <p>Orateur</p>
-          <p>Theme</p>
-          <p>Date</p>
-        </div>
-      </div>
-      <div id="cart-sermont">
-        <div class="video">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/K3dtImKtyD8?si=YJEObrk64hkxiEsu"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div id="details">
-          <p>Orateur</p>
-          <p>Theme</p>
-          <p>Date</p>
-        </div>
-      </div>
-      <div id="cart-sermont">
-        <div class="video">
-          <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/2OBD87YoLkc?si=qSV5b2HOFviFuE3E"
             title="YouTube video player"
             frameborder="0"
