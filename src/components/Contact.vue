@@ -421,7 +421,7 @@ form button {
     font-size: 1rem;
     line-height: 1.3;
     margin: .2rem 0;
-    text-align:start;
+    text-align: left;
     color: #2c3e50;
     font-weight: 800;
 }
