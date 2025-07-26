@@ -49,13 +49,13 @@
       <p class="lien">
         Vous pouvez voir les sermons Ici
         <router-link to="/Sermonts" class="lien"
-          ><span>Sermonts</span></router-link
+          ><span>Sermon</span></router-link
         >
       </p>
       <p class="lien">
-        Vous pouvez voir les Evernements Ici
-        <router-link to="/Sermonts" class="lien"
-          ><span>Evernements</span></router-link
+        Vous pouvez voir les Annonces Ici
+        <router-link to="/Evernements" class="lien"
+          ><span>Annonce</span></router-link
         >
       </p>
       <p class="lien">
