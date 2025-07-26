@@ -184,24 +184,24 @@ h1 {
 }
 /* Media queries pour la réactivité */
 @media (max-width: 768px) {
-  .acceiul-content[data-v-4b68863c] {
+  .acceiul-content{
     display: block;
-    align-items: center;
+    align-items: start;
     font-size: 1.5rem;
     width: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
-.acceiul-content p[data-v-4b68863c] {
+.acceiul-content p {
     padding: 5px;
-    margin-right: 3px;
+    margin-right: 0;
     width: 100%;
 }
-#p[data-v-4b68863c] {
+#p{
     padding: 5px;
     font-size: 1.2rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: start;
     font-size: 1.5rem;
 }
 #navigation p[data-v-4b68863c] {
