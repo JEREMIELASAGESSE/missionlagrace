@@ -170,4 +170,34 @@ h1 {
   font-weight: bold;
   border-bottom: 1px solid #eee;
 }
+/*Responsive*/
+@media (max-width: 768px) {
+  h1[data-v-52a3964a] {
+    text-align: center;
+    font-size: 2rem;
+    color: #f7f6f6;
+    margin-bottom: 1rem;
+}
+  #cart-sermont {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem;
+    gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+
+  }
+  #lessermons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .video iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  #details {
+    text-align: start;
+  }
+}
 </style>

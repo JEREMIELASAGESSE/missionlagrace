@@ -181,4 +181,39 @@ h1 {
     color: #b34c4c;
   }
 }
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+  .acceiul-content[data-v-4b68863c] {
+    display: block;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.acceiul-content p[data-v-4b68863c] {
+    padding: 5px;
+    margin-right: 3px;
+    width: 100%;
+}
+#p[data-v-4b68863c] {
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5rem;
+}
+#navigation p[data-v-4b68863c] {
+    padding: 3px;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.lien[data-v-4b68863c] {
+    text-decoration: none;
+    font-size: 0.5rem;
+    font-style: italic;
+}
+}
 </style>

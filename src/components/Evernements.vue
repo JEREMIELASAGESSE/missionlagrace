@@ -32,7 +32,7 @@
           <img
             src="@/assets/images/img2.png"
             alt="Description de l'image"
-            style="max-width: 510px; border-radius: 8px; height: auto"
+            style="max-width: 560px; border-radius: 8px; height: 315px"
           />
         </div>
         <div id="details">
@@ -150,5 +150,34 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1[data-v-086ce2a0] {
+    text-align: center;
+    font-size: 2rem;
+    color: #e2e5e9;
+    margin-bottom: 1rem;
+}
+  #lessermons {
+    flex-direction: column;
+    align-items: center;
+  }
+  #cart-sermont {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem;
+    gap: 1rem;
+  }
+  .video, .image {
+    width: 100%;
+    max-width: 100%;
+  }
+  #details {
+    text-align: center;
+  }
+  #details p {
+    text-align: center;
+  }
 }
 </style>

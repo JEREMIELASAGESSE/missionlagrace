@@ -32,5 +32,13 @@ export default {
     left: 0;
     right: 0;
 }
+/*responsive*/
+@media screen and (max-width: 768px) {
+    .footer {
+        font-size: 12px;
+        padding: 0.5rem 0;
+    }
+    
+}
 
 </style>

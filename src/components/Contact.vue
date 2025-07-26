@@ -397,4 +397,49 @@ form button {
     opacity: 1;
   }
 }
+  /* Responsive styles */
+@media (max-width: 768px) {
+  .image {
+  width: 100%;
+}
+  .image h1[data-v-cf6573c0] {
+    padding-top: 0.5rem;
+    color: #222020;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px rgba(253, 253, 253, 0.984);
+}
+.partie1[data-v-cf6573c0] {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+.email_telephone_whatssap[data-v-cf6573c0] {
+    flex: 1;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+  .map[data-v-cf6573c0] {
+    flex: 1;
+    width: 100%;
+}
+.info[data-v-cf6573c0] {
+    animation: info-cf6573c0 2s infinite;
+    color: #b34c4c;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#contact[data-v-cf6573c0] {
+    display: block;
+    padding: 10px;
+}
+.form[data-v-cf6573c0] {
+    width: 100%;
+}
+}
 </style>
