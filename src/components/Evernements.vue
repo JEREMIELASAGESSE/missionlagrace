@@ -69,6 +69,11 @@ export default {
 </script>
 
 <style scoped>
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .evenements {
   margin-top: 5rem;
   padding-top: 0.1rem; /* Espacement intérieur */

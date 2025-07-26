@@ -54,6 +54,7 @@ export default {
 body {
   padding: 0px;
   margin: 0px;
+  width: 100%;
 }
 header {
   background-color: rgb(93, 7, 7);

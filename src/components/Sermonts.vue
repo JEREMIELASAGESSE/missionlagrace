@@ -91,8 +91,8 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  background-color: #b56161; /* Couleur de fond */
   font-family: Arial, sans-serif; /* Police de caractères */
+  width: 100%;
 }
 .sermonts {
   margin-top: 5rem;

@@ -153,6 +153,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: Arial, sans-serif; /* Police de caractères */
 }
 
