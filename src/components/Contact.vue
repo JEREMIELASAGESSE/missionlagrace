@@ -410,6 +410,14 @@ form button {
     margin-top: 2rem;
     text-shadow: 2px 2px 4px rgba(253, 253, 253, 0.984);
 }
+.acceiul-description p{
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin: .5rem 0;
+    text-align:start;
+    color: #2c3e50;
+    font-weight: 800;
+}
 .partie1{
     display: block;
     justify-content: center;
