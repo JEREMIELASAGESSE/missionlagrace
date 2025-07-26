@@ -410,10 +410,17 @@ form button {
     margin-top: 2rem;
     text-shadow: 2px 2px 4px rgba(253, 253, 253, 0.984);
 }
+.acceiul-description{
+    background-color: hsla(0,0%,100%,.8);
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    margin: 2%;
+}
 .acceiul-description p{
-    font-size: 1.7rem;
+    font-size: 1rem;
     line-height: 1.3;
-    margin: .5rem 0;
+    margin: .2rem 0;
     text-align:start;
     color: #2c3e50;
     font-weight: 800;
